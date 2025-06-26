@@ -11,6 +11,8 @@
 		D11773E62E0D2A7200D082F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11773E52E0D2A7200D082F9 /* ContentView.swift */; };
 		D11773E82E0D2A7400D082F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11773E72E0D2A7400D082F9 /* Assets.xcassets */; };
 		D11773EB2E0D2A7400D082F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11773EA2E0D2A7400D082F9 /* Preview Assets.xcassets */; };
+		D11773F22E0D2AC100D082F9 /* ZipCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11773F12E0D2AC100D082F9 /* ZipCodeViewModel.swift */; };
+		D11773F42E0D2AE300D082F9 /* ZipCodeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11773F32E0D2AE300D082F9 /* ZipCodeSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D11773E52E0D2A7200D082F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D11773E72E0D2A7400D082F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11773EA2E0D2A7400D082F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D11773F12E0D2AC100D082F9 /* ZipCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeViewModel.swift; sourceTree = "<group>"; };
+		D11773F32E0D2AE300D082F9 /* ZipCodeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				D11773E52E0D2A7200D082F9 /* ContentView.swift */,
 				D11773E72E0D2A7400D082F9 /* Assets.xcassets */,
 				D11773E92E0D2A7400D082F9 /* Preview Content */,
+				D11773F12E0D2AC100D082F9 /* ZipCodeViewModel.swift */,
+				D11773F32E0D2AE300D082F9 /* ZipCodeSearchView.swift */,
 			);
 			path = ZipSearchCombine;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11773F22E0D2AC100D082F9 /* ZipCodeViewModel.swift in Sources */,
+				D11773F42E0D2AE300D082F9 /* ZipCodeSearchView.swift in Sources */,
 				D11773E62E0D2A7200D082F9 /* ContentView.swift in Sources */,
 				D11773E42E0D2A7200D082F9 /* ZipSearchCombineApp.swift in Sources */,
 			);

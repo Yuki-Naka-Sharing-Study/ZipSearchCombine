@@ -11,7 +11,7 @@ import SwiftUI
 struct ZipSearchCombineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZipCodeSearchView()
         }
     }
 }
